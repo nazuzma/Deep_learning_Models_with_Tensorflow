@@ -15,7 +15,7 @@ dataset = pd.read_csv('life_expectancy.csv')
 print(dataset.head())
 print(dataset.describe())
 
-# drop a column in order to generalize over
+# drop a column in order to generalize overpip
 dataset = dataset.drop(['Country'], axis=1)
 
 # to split the labels and features
